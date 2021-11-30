@@ -1,0 +1,20 @@
+Synchronisation of mobile phone accelerometer recordings using participant tapping cue
+
+The tapping sequence was designed to facilitate accurate timing alignment despite some range the inconsistencies expected of a group of adults trying to act according to new instructions. The synchronisation cue used two tapping sequences, one at 60 beats per minute and one at 80 beats per minute. For each tapping sequences, participants were played six isochronous beeps (amplitude shaped sine tones) with instructions to listen to the first three to determine the tempo and tap along to the last three. This sequences of beep beep beep tap tap tap was first demonstrated by an experimentor with the MC's instructions, and then the sequence was performed by the audience and the experimentor together with the MC verbalising the tapping action as well.
+Assemble measurements from individual phones, combine into a single time series using device provided epoch time stamps and resampled at 50 Hz with NaNs filling gaps of at least 1 s. In order to find the tapping cue in the device measuremets, accellerometer data was collapsed into a single normalised total motion value. This time series was then scanned for a peak in correlation with a model tapping cue. 
+A model of the tapping cue was constructed by combining smoothed a point process marking the onsets of the six times participants were expected to tap to the synchronisation cue. The timing of these points were extracted from the audio recording to establish the gap between the first three and last. The taps were smoothed with a centered 120 ms gaussian  In addition to these peaks in of when tapping should occure, another set of points were added after the taps (half way between the beeps) in negative value to penalyze sustained values in the accelerometer measurements. The exact values can be found in the Alignment correction notebook, the cue construction labeled "spointless". <Figure synch1_cues.png>
+
+Synchronisation quality on live audience set
+79 of 82 devices included at least one discernable synchronisation cue. 63 had both. 
+I need to go back to check on quality again. How many are iffy, how many were obvious?
+The average alignming shift for the first cue was 0.114 s (0.52 s) [-2.36,1.88]. The second cue shift mean 0.185 s (0.56 s) [-2.34,2.16]. Their difference averaged to 0.098s (0.24 s) [-0.52,1.08]. That the standard deviation on the difference in cue alignments is so much smaller than that of the original values suggests that alignment across the time series would be principly improved by a constant shift to compensate for lags. Clock drift was less of an issue, at least not on a systematic level.
+
+This justfies using a constant shift approach instead of a linear realignment. The question is whether to use the average of the two alignment tags to offset all measurements by the recording or two shift the measurements in two parts: first and second half. 
+The remote measurements may suggest a preference, for that set if not both.
+
+Synchronisation quality for remote audience set
+39 of 55 devices have at least one descernable synchronisation cue. 14 had both. 
+The average alignment shift for the first cue was -16.49 (11.15)[-35.32,0.08]. The average alingment shift for the second cue was -21.16 (12.74) [-53.84, 0.16]. Their difference (for the few which had both) was -0.14 (1.6) [-2.68,4.28]. The difference between first and second cue is more variable than the live audience, but not by as much as expected, and the extrems of the range are comparable. As such, I am willing to assume that clock drift is neglibile, and that we can used single cues to aligne sequences when that is all that is available with expected error of within a second or two over longer intervals.
+
+
+

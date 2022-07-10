@@ -1,0 +1,33 @@
+2) Anything to do with applause (Please change title… Maybe Finn?*, Niels, Maybe Alexander? Emin, Alena)
+At some concerts, the principal communication channel from audience to performers is applause.  Clapping can be loud or subdued, long or short, synchronised or dispersed. While audio recordings can capture the aggregate effect of an audience clapping, assessing individual audience members contributions to these textures requires more direct measurement. Audience members at a chamber music concert wore accelerometers on their chests, capturing their claps throughout the show. We look at the intensity, duration, and coordination of their clapping in conjunction with the events prompting the claps and their individual experiences of the music as reported in questionnaires (post clapping).
+… Possible ideas: (1) predicting applause intensity from prior movement (as a proxy of arousal level), structural features of music, etc. (2) How applause spreads; (3) Degrees of synchronized clapping related to questionnaire measures (familiarity with proximate audience members, musical enjoyment etc.).
+
+
+4Es and We: Bringing the social element into the 4Es framework (concise format/discussion point? Addendum to 3?) Remy, Finn, and Dana
+As a complement to Remy and Nanette's paper on the 4Es as a framework for the live concert experience, we would like to also offer a short contribution highlighting how the 4E framework could be enhanced with an emphasis on the social dimensions of experience. Cognition may exist in an individual but it is highly influenced by intersubjectivities. In musical contexts this may occur through fan culture, experiencing a musical piece with others, or by hearing the implied presence of musicians during solitary listening. The importance of the social, intersubjective element of cognition may be forgotten when only considering the 4E framework. Thus researchers who use this framework may benefit from considering how it is influenced by the social nature of human experience.
+
+
+7) Musician-music-audience coupling (Finn/Wenbo/Fernando/OLivier/Alena?)
+
+The other papers so far pursue questions on either audience or musicians. What can we say about their relation and possible coupling? I (Simon) think that would be worthwhile to pursue.
+What physiological DSQ data do we have that could predict some audience data or behavior. For instance, is there a correlation between DSQ HRVS and audience movement or breathing?
+Feed into experiential measures of audience. What musicological features are relevant to understand in this coupling.
+
+
+9) How the audience moves (Finn*,Alexander, Fernando...?, SI)
+We know audiences are expected to be quite still during some music performances while to others, they are up and dancing. Movement is one way audience members are aware of each other at live performances, whether they like it or not. In settings where the audience is expected to be unobtrusive, say at some classical music concerts, audience members often monitor and give feedback to each other, reinforcing a norm of silence and stillness. Concert goers have a sense of what a suitable amount of movement from their peers is acceptable during a performance, but what is that standard? What is the range of acceptable behaviour? And are they aware of their own movements as much as that of their neighbours?
+
+72(+4?) audience participants wore accelerometers on their chests while watching a live chamber music performance, and 32 more participants wore similar devices while watching from home over live stream. Four times through the concert, they reported their awareness of their own movements and whether their own motion and that of the audience was more, less, or normal for "this kind of concert". With the accelerometer measurements and their subjective reports, we can compare participants objecive behaviour and their normative assessements of their own movement. Between the live and remote audience, we evaluate how the presence of strangers and other concert conditions may affect how people move to this kind of performance. And considering the positions of participants in the concert hall, we can evaluate how their judgements of others' movement matched with the behaviour of the people around them.
+
+Movement will be considered in terms of:
+	total motion per piece/assessement period, totaly time above threshold minimum motion (device neutral), recent motion (last 5 minutes before assessment), timeline of movement (shifts between stillness, restlessness, periodic motion with music), categories of motion (respatory events, posture shifts, sustained swaying, foot-tapping/bobbing)
+	Note: would be really nice to use spectral tools for this assessment, but FFTs on series with NaNs is complicated. Need technical workaround, so far can only find a very heavy astrophysic library designed for 4D measurements with missing data.
+	Note: this analysis is pitched to a pretty basic level of movement analysis. More elaborate evaluations can be proposed. 
+
+11) What kind of audience movement/behavior predicts kama muta and absorption (Lead author Finn, help from Fernando)
+
+Human tapping for signal synchronisation between live and live-streamed performances (Finn*, not Special Issue)
+The proliferation of mobile sensor systems opens up a world of possibility for the study of musical experiences in more ecologically valid settings. Unfortunately, most of these devices do not support the tools used in laboratory settings to ensure synchronisation and alignment of concurrent measurements. To make alignment possible between performance audio and measurements taken from mobile phones, emg sensors, and motion capture, we asked participants in the audience and on stage to tap on their devices to a specialised synchronisation cue involve two tempi. The tapping task was performed twice, before each half of the concert. We used the resultant spikes in these signals to increase alignment quality between measurements taken within the concert hall as well as bring into alignment the mobile sensor readings from remote audience participants watching a livestream of the show. This paper describes the tapping cue design, the quality of participants performance of the task, the scale of shifts in alignment resultant from this tapping cue for different sensors and conditions (live vs remote), and the estimated precision of alignment achieved with this type of audio coordinated, metrical entrainment facilitated, human-executed sychronisation strategy.
+
+
+

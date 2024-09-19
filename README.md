@@ -9,7 +9,8 @@ Alignment from device timing to concert time (stimulus time) is performed using 
 
 Both MusicLab_motion notebooks include definitions and examples of how to gather and interpolate these datasets according to device time (_collect) or concert time (_aligne). 
 
-This code repo depends on several python libraries, namely pandas, scipy, and numpy. The notebooks are shared as CC-BY. The resultant data sets can be downloaded from the public OSF project, location TBA.
+This code repo depends on several python libraries, namely pandas, scipy, and numpy. The notebooks are shared as CC-BY. The resultant data sets can be downloaded from the public OSF project, https://osf.io/8t4rz/
 
 Finn Upham
 2021-11-30
+2024-09-19 (link to repo added)
